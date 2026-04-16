@@ -1,0 +1,8 @@
+services:
+  zensical-site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: zensical-site:latest
+    # ports:
+    #   - "8080:80"
